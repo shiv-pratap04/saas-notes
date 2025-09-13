@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Environment files
+.env
+.env*.local
+/client/.env
+/server/.env
+
+# Production build folder
+/client/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor specific
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
